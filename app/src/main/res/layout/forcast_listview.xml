@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:background="#f1f0954e">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="@string/date"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/colorHeading"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/temp" />
+
+            <TextView
+                android:id="@+id/tv_forcast_temp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:text="@string/temp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/min_Max" />
+
+            <TextView
+                android:id="@+id/tv_forcast_max_min"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:text="@string/min_Max" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/description" />
+
+            <TextView
+                android:id="@+id/tv_forcast_desc"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:text="@string/description" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/condition" />
+
+            <TextView
+                android:id="@+id/tv_forcast_condition"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:text="@string/condition" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/pressure" />
+
+            <TextView
+                android:id="@+id/tv_forcast_pressure"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:text="@string/pressure" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/humidity" />
+
+            <TextView
+                android:id="@+id/tv_forcast_humidity"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:text="@string/humidity" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout><!--
+</LinearLayout>-->

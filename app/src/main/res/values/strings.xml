@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="description">Description:</string>
+    <string name="condition">Condition:</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="temp">Temperature:</string>
+    <string name="temp_min">temp_min</string>
+    <string name="pressure">Pressure:</string>
+    <string name="temp_max">temp_max</string>
+    <string name="humidity">Humidity:</string>
+    <string name="location">Location</string>
+    <string name="min_Max">Min/Max:</string>
+    <string name="date">Today</string>
+</resources>
